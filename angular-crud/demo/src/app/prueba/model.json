@@ -1,0 +1,34 @@
+{
+  "title": "Pruebas",
+  "entity": "pruebas",
+  "api": {
+    "url": "https://localhost:44395/api/pruebas"
+  },
+  "filter": [
+    "city"
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "label": "Id",
+      "isId": true,
+      "readonly": true,
+      "type": "number"
+    },
+    {
+      "name": "nombre",
+      "type": "string",
+      "label": "Nombre"
+    },
+    {
+      "name": "Apellido",
+      "type": "string",
+      "label": "Apellido"
+    },
+    {
+      "name": "Edad",
+      "type": "number",
+      "label": "Edad"
+    }
+  ]
+}

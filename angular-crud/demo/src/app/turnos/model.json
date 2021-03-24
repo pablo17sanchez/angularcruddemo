@@ -1,0 +1,30 @@
+{
+    "title": "Turnos",
+    "entity": "turnos",
+    "api": {
+      "url": "https://localhost:44395/api/turnos1"
+    },
+    "filter": [
+      "city"
+    ],
+    "fields": [
+      {
+        "name": "id",
+        "label": "Id",
+        "isId": true,
+        "readonly": true,
+        "type": "number"
+      },
+      {
+        "name": "fecha",
+        "type": "date",
+        "label": "Fecha"
+      },
+      {
+        "name": "atendido",
+        "type": "boolean",
+        "label": "Atendido"
+      }
+    ]
+  }
+  
